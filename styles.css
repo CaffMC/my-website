@@ -1,15 +1,4 @@
-h1, h2, p {
-    display: block;
-}
-
-h1:nth-child(1) {
-    color: red;
-}
-
-h2:nth-child(2) {
-    color: blue;
-}
-
-p:nth-child(3) {
-    color: green;
+header {
+    text-align: center;
+    padding-top: 50px;
 }
