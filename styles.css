@@ -1,9 +1,37 @@
+/* I couldn't resist making my website less ugly! I still have much room to improve and tried to be minimal... */
+body {
+   background-image: url(realistic\ landscaping\ PNW.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+
+
 header {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
     padding-top: 50px;
 }
 
+h2 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+ul {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 footer {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
     padding-top: 500px
 }
