@@ -6,32 +6,39 @@ body {
    background-position: center;
 }
 
-
-
 header {
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 30px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 35px;
 }
 
 h2 {
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.2);
     text-align: center;
 }
 
 h3 {
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 ul {
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 footer {
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
     text-align: center;
     padding-top: 500px
+}
+
+img {
+    float: right;
+    padding-top: 200px;
 }
