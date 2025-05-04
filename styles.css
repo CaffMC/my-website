@@ -4,18 +4,19 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
-
-header {
+/* Do all units need to be relative? */
+header h1 {
     color: white;
     background-color:rgba(0, 0, 0, 0.2);
-    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
     text-align: center;
-    padding-top: 35px;
-    
+    padding-top: 2%;
 }
 
 h2 {
     color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     font-size: 30px;
     background-color: rgba(0, 0, 0, 0.2);
@@ -23,6 +24,7 @@ h2 {
 
 h3 {
     color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
     background-color: rgba(0, 0, 0, 0.2);
 }
@@ -30,17 +32,22 @@ h3 {
 ul {
     color: white;
     font-size: 20px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.contacts ul > li{
+    color: rgb(187, 255, 0);
+
 }
 
 footer {
     color: white;
     background-color: rgba(0, 0, 0, 0.2);
     text-align: center;
-    padding-top: 500px
+    padding-top: 500px;
 }
 
-img {
+img[alt="HITEWORKS LOGO"] {
     float: right;
     padding-top: 0px;
     padding-right: 100px;
