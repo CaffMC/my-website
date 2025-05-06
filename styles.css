@@ -3,11 +3,12 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: rgba(0, 0, 0, 0);
 }
 /* Do all units need to be relative? */
 header h1 {
     color: white;
-    background-color:rgba(0, 0, 0, 0.2);
+    text-shadow: 4px 4px black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 3rem;
     text-align: center;
@@ -19,36 +20,41 @@ h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     font-size: 30px;
-    background-color: rgba(0, 0, 0, 0.2);
+    text-shadow: 3px 2px black;
+    
 }
 
 h3 {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
-    background-color: rgba(0, 0, 0, 0.2);
+    text-shadow: 3px 2px black;
 }
 
-ul {
-    color: white;
-    font-size: 20px;
-    background-color: rgba(0, 0, 0, 0.3);
+#services {
+    color: #ffffff;
+    font-size: 30px;
+    text-shadow: 3px 2px rgb(0, 0, 0);
 }
 
-.contacts ul > li{
+#contacts ul > li{
     color: rgb(187, 255, 0);
+    font-size: 20px;
 
 }
 
 footer {
     color: white;
-    background-color: rgba(0, 0, 0, 0.2);
+    text-shadow: 3px 2px black;
     text-align: center;
     padding-top: 500px;
 }
 
 img[alt="HITEWORKS LOGO"] {
     float: right;
-    padding-top: 0px;
-    padding-right: 100px;
+    margin-top: 8px;
+    border-width: 5px;
+    border-color: black;
+    margin-right: 25px;
+    border-style: solid;
 }
