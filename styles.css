@@ -1,11 +1,11 @@
 body {
-    background-image: url(Images/UpdatedLandscaping1.jpg);
+    background-image: url(Images/Revised2Landscape1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgba(0, 0, 0, 0);
 }
-/* Do all units need to be relative? */
+
 header h1 {
     color: white;
     text-shadow: 4px 4px black;
@@ -21,11 +21,11 @@ h2 {
     text-align: center;
     font-size: 30px;
     text-shadow: 3px 2px black;
-    
+
 }
 
 h3 {
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
     text-shadow: 3px 2px black;
@@ -37,8 +37,8 @@ h3 {
     text-shadow: 3px 2px rgb(0, 0, 0);
 }
 
-#contacts ul > li{
-    color: rgb(187, 255, 0);
+#contacts ul>li {
+    color: rgb(72, 255, 0);
     font-size: 20px;
 
 }
@@ -57,4 +57,22 @@ img[alt="HITEWORKS LOGO"] {
     border-color: black;
     margin-right: 25px;
     border-style: solid;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: rgb(72, 255, 0);
+    padding: 30px;
+    font-size: 35px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    color: rgb(0, 251, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
 }
