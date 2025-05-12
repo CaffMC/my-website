@@ -10,9 +10,9 @@ header h1 {
     color: white;
     text-shadow: 4px 4px black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 3rem;
+    font-size: 50px;
     text-align: center;
-    padding-top: 2%;
+    margin-top: 50px;
 }
 
 h2 {
@@ -29,12 +29,15 @@ h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
     text-shadow: 3px 2px black;
+    margin-bottom: 0px;
 }
 
 #services {
     color: #ffffff;
     font-size: 30px;
     text-shadow: 3px 2px rgb(0, 0, 0);
+    background-color: rgba(50, 50, 51, 0.272);
+    display: inline-block;
 }
 
 #contacts ul>li {
