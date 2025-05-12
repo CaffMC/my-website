@@ -1,5 +1,5 @@
 body {
-    background-image: url(Images/Revised2Landscape1.jpg);
+    background-image: url(images/updated-landscaping1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -48,6 +48,7 @@ footer {
     text-shadow: 3px 2px black;
     text-align: center;
     padding-top: 500px;
+    font-size: 25px;
 }
 
 img[alt="HITEWORKS LOGO"] {
