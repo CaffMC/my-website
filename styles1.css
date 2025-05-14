@@ -60,3 +60,25 @@ img[alt="HITEWORKS LOGO"] {
     margin-right: 25px;
     border-style: solid;
 }
+
+@media only screen and (max-width: 950px) and (min-width: 780px) {
+    img[alt="HITEWORKS LOGO"] {
+        float: right;
+        margin-top: 0px;
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 779px) and (min-width: 730px) {
+    img[alt="HITEWORKS LOGO"] {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 729px) {
+    img[alt="HITEWORKS LOGO"] {
+        width: 150px;
+        margin-bottom: 30px;
+        margin-right: 35%;
+    }
+}
