@@ -29,7 +29,6 @@ h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
     text-shadow: 3px 2px black;
-    margin-bottom: 0px;
 }
 
 #services {
@@ -43,7 +42,6 @@ h3 {
 #contacts ul>li {
     color: rgb(72, 255, 0);
     font-size: 20px;
-
 }
 
 footer {
@@ -61,22 +59,4 @@ img[alt="HITEWORKS LOGO"] {
     border-color: black;
     margin-right: 25px;
     border-style: solid;
-}
-
-nav {
-    text-align: center;
-}
-
-nav a {
-    color: rgb(72, 255, 0);
-    padding: 30px;
-    font-size: 35px;
-    text-decoration: none;
-    text-align: center;
-}
-
-nav a:hover {
-    color: rgb(0, 251, 255);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
 }
