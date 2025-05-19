@@ -1,0 +1,92 @@
+body {
+    background-image: url(images/landscape-background-services.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+header h1 {
+    color: white;
+    text-shadow: 4px 4px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#services {
+    color: #ffffff;
+    font-size: 30px;
+    text-shadow: 3px 2px rgb(0, 0, 0);
+    
+    border-radius: 10px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 2vw;
+    padding: 5vw;
+    justify-content: center;
+}
+
+.service-card {
+    background: rgba(34, 85, 34, 0.8); /* Green tint with transparency */
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease, background 0.3s ease;
+    text-align: center;
+    backdrop-filter: blur(5px);
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+    background: rgba(34, 85, 34, 0.9);
+}
+
+.service-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+footer {
+    color: white;
+    text-shadow: 3px 2px black;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 25px;
+}
+
+@media (min-width: 1024px) {
+    .services-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .service-card {
+        flex: 1 1 300px;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 600px) {
+    .service-card {
+        padding: 3vw;
+        font-size: 1rem;
+    }
+
+    .services-grid {
+        gap: 3vw;
+    }
+
+    .service-card h3 {
+        font-size: 1.2rem;
+    }
+}
+
