@@ -6,7 +6,7 @@ body {
     background-color: rgba(0, 0, 0, 0);
 }
 
-header h1 {
+h1 {
     color: white;
     text-shadow: 4px 4px black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -25,23 +25,37 @@ h2 {
 }
 
 h3 {
-    color: rgb(255, 255, 255);
+
+    color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
+    text-align: center;
+    font-size: 35px;
     text-shadow: 3px 2px black;
+    margin-top: 10%;
+    background-color: rgba(99, 98, 98, 0.5);
 }
 
-#services {
-    color: #ffffff;
-    font-size: 30px;
-    text-shadow: 3px 2px rgb(0, 0, 0);
-    background-color: rgba(50, 50, 51, 0.272);
+.center-links {
+    text-align: center;
+    margin-top: 2vw;
+}
+
+.center-links a {
     display: inline-block;
+    margin: 1vw;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(34, 85, 34, 0.8);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: background 0.3s ease, transform 0.2s ease;
 }
 
-#contacts ul>li {
-    color: rgb(72, 255, 0);
-    font-size: 20px;
+.center-links a:hover {
+    background-color: rgba(34, 85, 34, 1);
+    transform: scale(1.05);
 }
 
 footer {
@@ -52,33 +66,22 @@ footer {
     font-size: 25px;
 }
 
-img[alt="HITEWORKS LOGO"] {
-    float: right;
-    margin-top: 8px;
-    border-width: 5px;
-    border-color: black;
-    margin-right: 25px;
-    border-style: solid;
+img {
+    display: block;
+    margin: auto;
+    border: 5px solid black;
+    width: 50%;
+    max-width: 500px;
 }
 
-@media only screen and (max-width: 950px) and (min-width: 780px) {
-    img[alt="HITEWORKS LOGO"] {
-        float: right;
-        margin-top: 0px;
-        width: 200px;
+/* Fix more breakpoints in future */
+@media (max-width: 960px) {
+    h3 {
+        font-size: 24px;
+        margin-top: 10%;
     }
-}
 
-@media only screen and (max-width: 779px) and (min-width: 730px) {
-    img[alt="HITEWORKS LOGO"] {
-        width: 150px;
-    }
-}
-
-@media only screen and (max-width: 729px) {
-    img[alt="HITEWORKS LOGO"] {
-        width: 150px;
-        margin-bottom: 30px;
-        margin-right: 35%;
+    .center-links a {
+        font-size: 20px;
     }
 }

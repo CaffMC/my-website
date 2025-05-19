@@ -26,7 +26,7 @@ footer {
     display: flex;
     gap: 20px;
     justify-content: center;
-    align-items: flex-start; /* Ensures columns align at the top */
+    align-items: flex-start;
 }
 
 .column {

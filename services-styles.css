@@ -20,24 +20,23 @@ header h1 {
     color: #ffffff;
     font-size: 30px;
     text-shadow: 3px 2px rgb(0, 0, 0);
-    
     border-radius: 10px;
 }
 
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2vw;
     padding: 5vw;
     justify-content: center;
 }
 
 .service-card {
-    background: rgba(34, 85, 34, 0.8); /* Green tint with transparency */
+    background: rgba(50, 87, 24, 0.7);
     color: #fff;
     padding: 15px;
     border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, background 0.3s ease;
     text-align: center;
     backdrop-filter: blur(5px);
@@ -54,11 +53,15 @@ header h1 {
     margin-bottom: 10px;
 }
 
+#backtotop {
+    color: green;
+}
+
 footer {
     color: white;
     text-shadow: 3px 2px black;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 500px;
     font-size: 25px;
 }
 
@@ -75,6 +78,7 @@ footer {
     }
 }
 
+/*Fix more breakpoints*/
 @media (max-width: 600px) {
     .service-card {
         padding: 3vw;
@@ -89,4 +93,3 @@ footer {
         font-size: 1.2rem;
     }
 }
-
