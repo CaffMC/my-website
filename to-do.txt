@@ -1,0 +1,9 @@
+1. Fix navbar bug when screen is small with media query
+
+2. Fix homepage
+
+3. Try to figure out how to put css that applies to all pages in one file
+
+4.
+
+5.
