@@ -1,11 +1,9 @@
 body {
-    background-image: url(images/landscape-background-services.png);
+    background-image: url(/images/landscape-background-services.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: rgba(0, 0, 0, 0);
 }
-
 
 header h1 {
     color: white;
@@ -23,6 +21,7 @@ header h1 {
     border-radius: 10px;
 }
 
+/* Arranges the service cards in a grid layout */
 .services-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -31,6 +30,7 @@ header h1 {
     justify-content: center;
 }
 
+/* Gives each service card a background, padding, and hover effects */
 .service-card {
     background: rgba(50, 87, 24, 0.7);
     color: #fff;
@@ -53,10 +53,6 @@ header h1 {
     margin-bottom: 10px;
 }
 
-#backtotop {
-    color: green;
-}
-
 footer {
     color: white;
     text-shadow: 3px 2px black;
@@ -64,7 +60,7 @@ footer {
     padding-top: 500px;
     font-size: 25px;
 }
-
+/* Figure out how to make the service cards center at all breakpoints */
 @media (min-width: 1024px) {
     .services-grid {
         display: flex;
@@ -78,7 +74,7 @@ footer {
     }
 }
 
-/*Fix more breakpoints*/
+/*Need to add/edit breakpoints*/
 @media (max-width: 600px) {
     .service-card {
         padding: 3vw;

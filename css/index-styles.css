@@ -1,0 +1,71 @@
+/* Set the whole page background to black */
+body {
+    background: black;
+}
+
+/* Main container, full viewport height, centers content */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    width: 100%;
+    margin: 0%;
+}
+
+/* For centering and styling the image container */
+.image-wrapper {
+    padding: 2vw;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 95vw;
+    max-height: 70vh;
+    margin-bottom: 2vw;
+    border-radius: 20px;
+}
+
+/* Responsive image styling */
+.image-wrapper img {
+   display: block;
+    max-width: 95vw;
+    max-height: 80vh;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    object-fit: contain;
+}
+
+h1 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 7vw;
+    text-align: center;
+    margin: 0 0 1vw 0;
+}
+
+h2 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 5.5vw;
+    text-align: center;
+    margin: 0 0 2vw 0;
+}
+/* Add media query to fix text getting too small at small screen sizes */
+h3 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4vw;
+    text-align: center;
+    margin: 0 0 2vw 0;
+}
+
+footer {
+    color: white;
+    text-shadow: 3px 2px black;
+    text-align: center;
+    margin-top: 5vw;
+    font-size: 25px;
+}

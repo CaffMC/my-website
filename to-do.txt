@@ -1,9 +1,15 @@
 1. Fix navbar bug when screen is small with media query
 
-2. Fix homepage
+2. Add media queries to every page
 
 3. Try to figure out how to put css that applies to all pages in one file
 
-4.
+4. Fix footer styles once page content is added (unnecessary top margen, not relative, etc.)
 
-5.
+5. Make an actual contact page...
+
+6. Make a values page (add the stuff from contact.html and use style like "About Us" page)
+
+7. Make sensible image names
+
+8.

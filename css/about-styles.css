@@ -1,5 +1,5 @@
 body {
-    background-image: url(images/landscape-background.png);
+    background-image: url(/images/landscape-background.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -7,13 +7,14 @@ body {
 }
 
 header h1 {
-   color: white;
+    color: white;
     text-shadow: 4px 4px black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
     text-align: center;
     margin-top: 50px;
 }
+
 footer {
     color: white;
     text-shadow: 3px 2px black;
@@ -22,6 +23,7 @@ footer {
     font-size: 25px;
 }
 
+/* Flex container for arranging columns side by side */
 .columns {
     display: flex;
     gap: 20px;
@@ -38,6 +40,7 @@ footer {
     align-items: center;
 }
 
+/* Second box for info about each person*/
 .info-box {
     margin-top: 8px;
     background-color: rgba(50, 87, 24, 0.5);
@@ -48,7 +51,6 @@ footer {
     text-shadow: 1px 1px black;
     font-size: 18px;
 }
-
 
 .name-box {
     background-color: rgba(50, 87, 24, 0.7);
