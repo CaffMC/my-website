@@ -12,4 +12,4 @@
 
 7. Make sensible image names
 
-8.
+8. Figure out how the heck to organize files in folders without GitHub deciding it will refuse to launched the page correctly
