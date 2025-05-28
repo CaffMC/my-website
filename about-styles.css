@@ -26,13 +26,18 @@ footer {
 /* Flex container for arranging columns side by side */
 .columns {
     display: flex;
+    flex-wrap: wrap; /* allow wrapping */
     gap: 20px;
     justify-content: center;
     align-items: flex-start;
+    max-width: 1200px; /* optional: limit overall width */
+    margin: 0 auto; /* center container */
 }
 
 .column {
-    flex: 1;
+    flex: 1 1 280px; /* grow, shrink, basis of 280px */
+    max-width: 33%; /* max 3 columns per row */
+    min-width: 280px; /* avoid too narrow */
     color: white;
     text-align: center;
     display: flex;
@@ -62,4 +67,13 @@ footer {
     text-shadow: 2px 2px black;
     font-size: 22px;
     font-weight: bold;
+}
+
+
+/* For screens narrower than 600px, stack columns vertically */
+@media (max-width: 1000px) {
+    .column {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
 }

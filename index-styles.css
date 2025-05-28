@@ -3,6 +3,11 @@ body {
     background: black;
 }
 
+.nav-spacer {
+  height: 30px; 
+}
+
+
 /* Main container, full viewport height, centers content */
 .container {
     display: flex;
@@ -41,27 +46,33 @@ body {
 h1 {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 7vw;
+    font-size: 5rem;
     text-align: center;
-    margin: 0 0 1vw 0;
+    margin-top: .5rem;
+    margin-bottom: -2rem;
+    max-width: 95%;
 }
 
 h2 {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 5.5vw;
+    font-size: 4rem;
     text-align: center;
-    margin: 0 0 2vw 0;
+    margin-bottom: 2rem;
+    word-break: break-word;
+    max-width: 95%;
 }
-/* Add media query to fix text getting too small at small screen sizes */
+
 h3 {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 4vw;
+    font-size: 1.75rem;
     text-align: center;
-    margin: 0 0 2vw 0;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    word-break: break-word;
+    max-width: 95%;
 }
-
 footer {
     color: white;
     text-shadow: 3px 2px black;
@@ -69,3 +80,28 @@ footer {
     margin-top: 5vw;
     font-size: 25px;
 }
+
+@media (max-width: 695px) {
+    h1 {
+        font-size: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 0.25rem; /* reduce spacing below */
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        margin-top: 0;
+        margin-bottom: 0.5rem; /* tighten spacing */
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 696px) and (max-width: 900px) {
+    h2 {
+        font-size: 3.5rem;
+    }
+}
+    

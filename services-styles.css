@@ -18,16 +18,12 @@ header h1 {
     color: #ffffff;
     font-size: 30px;
     text-shadow: 3px 2px rgb(0, 0, 0);
-    border-radius: 10px;
 }
 
 /* Arranges the service cards in a grid layout */
 .services-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2vw;
     padding: 5vw;
-    justify-content: center;
 }
 
 /* Gives each service card a background, padding, and hover effects */
@@ -47,12 +43,6 @@ header h1 {
     background: rgba(34, 85, 34, 0.9);
 }
 
-.service-icon {
-    width: 40px;
-    height: 40px;
-    margin-bottom: 10px;
-}
-
 footer {
     color: white;
     text-shadow: 3px 2px black;
@@ -60,8 +50,8 @@ footer {
     padding-top: 500px;
     font-size: 25px;
 }
-/* Figure out how to make the service cards center at all breakpoints */
-@media (min-width: 1024px) {
+
+@media (min-width: 1025px) {
     .services-grid {
         display: flex;
         flex-wrap: wrap;
@@ -69,23 +59,19 @@ footer {
     }
 
     .service-card {
-        flex: 1 1 300px;
-        max-width: 300px;
+        width: 300px;
+        margin: 1vw;
     }
 }
 
-/*Need to add/edit breakpoints*/
-@media (max-width: 600px) {
-    .service-card {
-        padding: 3vw;
-        font-size: 1rem;
-    }
-
+@media (max-width: 1024px) {
     .services-grid {
-        gap: 3vw;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
     }
 
-    .service-card h3 {
-        font-size: 1.2rem;
+    .service-card {
+        width: 90%;
     }
 }
