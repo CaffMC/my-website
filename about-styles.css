@@ -15,14 +15,6 @@ header h1 {
     margin-top: 50px;
 }
 
-footer {
-    color: white;
-    text-shadow: 3px 2px black;
-    text-align: center;
-    padding-top: 1000px;
-    font-size: 25px;
-}
-
 /* Flex container for arranging columns side by side */
 .columns {
     display: flex;

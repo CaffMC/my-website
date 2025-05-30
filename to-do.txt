@@ -1,8 +1,8 @@
-1. Fix navbar bug when screen is small with media query
+1. Fix navbar bug when screen is small with media query (DONE!)
 
-2. Add media queries to every page
+2. Add media queries to every page (DONE!)
 
-3. Try to figure out how to put css that applies to all pages in one file
+3. Try to figure out how to put css that applies to all pages in one file 
 
 4. Fix footer styles once page content is added (unnecessary top margen, not relative, etc.)
 
@@ -13,3 +13,5 @@
 7. Make sensible image names
 
 8. Figure out how the heck to organize files in folders without GitHub deciding it will refuse to launched the page correctly
+
+9. Add images to "Our Work" page

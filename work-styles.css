@@ -1,0 +1,60 @@
+body {
+    background: linear-gradient(270deg, #d4fca9, #88cc74, #f0d878, #d4fca9);
+    background-size: 600% 600%;
+    animation: gradientBG 20s ease infinite;
+}
+
+/* Center the whole section and give it some breathing room */
+#slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 2vw;
+    min-height: 80vh;
+}
+
+/* Style the carousel container */
+.carousel {
+    max-width: 800px;
+    width: 100%;
+    border: 6px solid #3d5d23;
+    /* dark green border */
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
+}
+
+/* Ensure images fit and don't stretch */
+.carousel img {
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+}
+
+/* Style the caption text */
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.carousel-caption h5 {
+    color: white;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 3px black;
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}

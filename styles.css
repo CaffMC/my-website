@@ -15,6 +15,7 @@ nav {
     font-size: clamp(1rem, 2.5vw, 1.25rem);
     z-index: 1000;
 }
+
 body {
     padding-top: 50px;
 }
@@ -28,4 +29,19 @@ nav a {
 
 nav a:hover {
     background-color: #6572b1;
+}
+
+footer {
+    color: white;
+    text-shadow: 3px 2px black;
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 1.25rem;
+    position: relative;
+    z-index: 10;
+    margin-top: auto;
+}
+
+nav, footer {
+  font-family: 'Outfit', sans-serif;
 }

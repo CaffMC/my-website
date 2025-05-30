@@ -4,9 +4,8 @@ body {
 }
 
 .nav-spacer {
-  height: 30px; 
+    height: 30px;
 }
-
 
 /* Main container, full viewport height, centers content */
 .container {
@@ -34,7 +33,7 @@ body {
 
 /* Responsive image styling */
 .image-wrapper img {
-   display: block;
+    display: block;
     max-width: 95vw;
     max-height: 80vh;
     width: 100%;
@@ -51,6 +50,8 @@ h1 {
     margin-top: .5rem;
     margin-bottom: -2rem;
     max-width: 95%;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
 }
 
 h2 {
@@ -73,25 +74,20 @@ h3 {
     word-break: break-word;
     max-width: 95%;
 }
-footer {
-    color: white;
-    text-shadow: 3px 2px black;
-    text-align: center;
-    margin-top: 5vw;
-    font-size: 25px;
-}
 
 @media (max-width: 695px) {
     h1 {
         font-size: 2rem;
         margin-top: 1rem;
-        margin-bottom: 0.25rem; /* reduce spacing below */
+        margin-bottom: 0.25rem;
+        /* reduce spacing below */
     }
 
     h2 {
         font-size: 1.5rem;
         margin-top: 0;
-        margin-bottom: 0.5rem; /* tighten spacing */
+        margin-bottom: 0.5rem;
+        /* tighten spacing */
     }
 
     h3 {
@@ -104,4 +100,3 @@ footer {
         font-size: 3.5rem;
     }
 }
-    
