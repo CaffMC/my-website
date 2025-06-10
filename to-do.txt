@@ -8,9 +8,9 @@ To Do:
 
 4. Figure out how the heck to organize files in folders without GitHub deciding it will refuse to launch the page correctly
 
-5. Add favicon !!
+5. Add filler images to About Us page for each person
 
-6. Add filler image to About Us page
+6. Deal with new break points. Mostly with navbar fixes.
 
 DONE:
 
@@ -27,3 +27,5 @@ Add media queries to every page
 Fix navbar bug when screen is small with media query
 
 Fix navbar changing a bit on Our Work (FINALLY DONE!!!)
+
+Add favicon !!
