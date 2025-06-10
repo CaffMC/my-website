@@ -4,7 +4,8 @@ body {
 }
 
 .nav-spacer {
-    height: 30px;
+    height: 60px;
+    /* Adjust this to match actual nav height */
 }
 
 /* Main container, full viewport height, centers content */
@@ -15,7 +16,7 @@ body {
     justify-content: center;
     min-height: 90vh;
     width: 100%;
-    margin: 0%;
+    margin: 0;
 }
 
 /* For centering and styling the image container */
@@ -26,8 +27,10 @@ body {
     align-items: center;
     justify-content: center;
     max-width: 95vw;
-    max-height: 70vh;
+    max-height: 60vh;
     margin-bottom: 2vw;
+    margin-top: 2rem;
+    /* Changed from 10% */
     border-radius: 20px;
 }
 
@@ -35,31 +38,31 @@ body {
 .image-wrapper img {
     display: block;
     max-width: 95vw;
-    max-height: 80vh;
+    max-height: 60vh;
     width: 100%;
     height: auto;
     border-radius: 12px;
     object-fit: contain;
 }
 
+/* Headings */
 h1 {
     color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 5rem;
+    font-family: "Outfit", sans-serif;
+    font-size: 3.5rem;
     text-align: center;
     margin-top: .5rem;
-    margin-bottom: -2rem;
+    margin-bottom: 0rem;
     max-width: 95%;
-    font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
 }
 
 h2 {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 4rem;
+    font-size: 2.5rem;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     word-break: break-word;
     max-width: 95%;
 }
@@ -75,19 +78,18 @@ h3 {
     max-width: 95%;
 }
 
-@media (max-width: 695px) {
+/* Responsive text styles */
+@media (max-width: 610px) {
     h1 {
         font-size: 2rem;
         margin-top: 1rem;
         margin-bottom: 0.25rem;
-        /* reduce spacing below */
     }
 
     h2 {
         font-size: 1.5rem;
         margin-top: 0;
         margin-bottom: 0.5rem;
-        /* tighten spacing */
     }
 
     h3 {

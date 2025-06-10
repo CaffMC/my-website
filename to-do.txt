@@ -1,23 +1,29 @@
-1. Fix navbar bug when screen is small with media query (DONE!)
+To Do:
 
-2. Add media queries to every page (DONE!)
+1. Try to figure out how to put css that applies to all pages in one file (Done for Nav and Footer)
 
-3. Try to figure out how to put css that applies to all pages in one file (Half-DONE)
+2. Make an actual contact page...
 
-4. Fix footer styles once page content is added (unnecessary top margen, not relative, etc.) (DONE!)
+3. Make sensible image names 
 
-5. Make an actual contact page...
+4. Figure out how the heck to organize files in folders without GitHub deciding it will refuse to launch the page correctly
 
-6. Make a values page (add the stuff from contact.html) (DONE!) 
+5. Add favicon !!
 
-7. Make sensible image names 
+6. Add filler image to About Us page
 
-8. Figure out how the heck to organize files in folders without GitHub deciding it will refuse to launch the page correctly
+DONE:
 
-9. Add images to "Our Work" page (DONE!)
+Add images to "Our Work" page
 
-10. Add favicon !!
+Fix flex-boxes having different margins on values
 
-11. Fix flex-boxes having different margins on values
+Make a values page (add the stuff from contact.html)
 
-12. Fix navbar changing a bit on Cointact and Our Work
+Fix footer styles once page content is added (unnecessary top margen, not relative, etc.)
+
+Add media queries to every page
+
+Fix navbar bug when screen is small with media query
+
+Fix navbar changing a bit on Our Work (FINALLY DONE!!!)
