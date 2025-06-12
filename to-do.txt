@@ -4,13 +4,11 @@ To Do:
 
 2. Make an actual contact page...
 
-3. Make sensible image names 
+3. Figure out how the heck to organize files in folders without GitHub deciding it will refuse to launch the page correctly
 
-4. Figure out how the heck to organize files in folders without GitHub deciding it will refuse to launch the page correctly
+4. Add filler images to About Us page for each person
 
-5. Add filler images to About Us page for each person
-
-6. Deal with new break points. Mostly with navbar fixes.
+5. Deal with new break points. Mostly with navbar fixes (does weird stuff on values and services).
 
 DONE:
 
@@ -29,3 +27,7 @@ Fix navbar bug when screen is small with media query
 Fix navbar changing a bit on Our Work (FINALLY DONE!!!)
 
 Add favicon !!
+
+Make sensible image names
+
+Background images can't stretch at small and tall resolutions.
