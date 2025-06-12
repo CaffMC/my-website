@@ -8,7 +8,7 @@ To Do:
 
 4. Add filler images to About Us page for each person
 
-5. Deal with new break points. Mostly with navbar fixes (does weird stuff on values and services).
+5. Deal with new break points. Mostly with navbar fixes (does weird stuff on values and services). Also fix footer being cut-off...
 
 DONE:
 
