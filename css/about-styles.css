@@ -1,5 +1,5 @@
 body {
-  --bg-image: url('images/about-image.png');
+  --bg-image: url('../images/about-image.png');
 }
 
 /* Page header */

@@ -1,5 +1,5 @@
 body {
-  --bg-image: url(images/contact-image.jpg);
+  --bg-image: url(../images/contact-image.jpg);
 }
 
 header h1 {

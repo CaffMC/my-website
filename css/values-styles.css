@@ -2,7 +2,7 @@
 
 /* Base styles */
 body {
-  --bg-image: url('images/values-image.png');
+  --bg-image: url('../images/values-image.png');
 }
 
 header h1 {

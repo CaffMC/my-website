@@ -2,7 +2,7 @@ To Do:
 
 1. Try to figure out how to put css that applies to all pages in one file (Done for Nav and Footer and other things like back-ground positioning)
 
-2. Figure out how the heck to organize files in folders without GitHub deciding it will refuse to launch the page correctly
+2. Figure out how the heck to organize files in folders without GitHub deciding it will refuse to launch the page correctly (Maybe??? Pushing now.)
 
 DONE:
 
