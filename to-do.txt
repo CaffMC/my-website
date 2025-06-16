@@ -2,8 +2,6 @@ To Do:
 
 1. Try to figure out how to put css that applies to all pages in one file (Done for Nav and Footer and other things like back-ground positioning)
 
-2. Figure out how the heck to organize files in folders without GitHub deciding it will refuse to launch the page correctly (Maybe??? Pushing now.)
-
 DONE:
 
 Add images to "Our Work" page
@@ -31,3 +29,6 @@ Make an actual contact page... (Added form)
 Deal with new break points. Mostly with navbar fixes (does weird stuff on values and services). Also fix footer being cut-off...
 
 Add filler images to About Us page for each person
+
+Figure out how the heck to organize files in folders without GitHub deciding it will refuse to launch the page correctly (Maybe??? Pushing now.)
+☝️☝️☝️ YAY. I did it!! ☝️☝️☝️
