@@ -1,14 +1,8 @@
 To Do:
 
-1. Try to figure out how to put css that applies to all pages in one file (Done for Nav and Footer)
+1. Try to figure out how to put css that applies to all pages in one file (Done for Nav and Footer and other things like back-ground positioning)
 
-2. Make an actual contact page...
-
-3. Figure out how the heck to organize files in folders without GitHub deciding it will refuse to launch the page correctly
-
-4. Add filler images to About Us page for each person
-
-5. Deal with new break points. Mostly with navbar fixes (does weird stuff on values and services). Also fix footer being cut-off...
+2. Figure out how the heck to organize files in folders without GitHub deciding it will refuse to launch the page correctly
 
 DONE:
 
@@ -31,3 +25,9 @@ Add favicon !!
 Make sensible image names
 
 Background images can't stretch at small and tall resolutions.
+
+Make an actual contact page... (Added form)
+
+Deal with new break points. Mostly with navbar fixes (does weird stuff on values and services). Also fix footer being cut-off...
+
+Add filler images to About Us page for each person

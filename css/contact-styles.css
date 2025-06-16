@@ -1,0 +1,136 @@
+body {
+  --bg-image: url(images/contact-image.jpg);
+}
+
+header h1 {
+  color: white;
+  text-shadow: 4px 4px black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#contact-intro p {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  margin: 2vw auto;
+  max-width: 800px;
+  background-color: rgba(50, 87, 24, 0.916);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  font-family: 'Outfit', sans-serif;
+}
+
+.contact-box {
+  max-width: 800px;
+  /* match #contact-intro */
+  margin: 3vw auto;
+  padding: clamp(1rem, 4vw, 2rem);
+  /* responsive padding */
+  background-color: rgba(50, 87, 24, 0.916);
+  ;
+  color: white;
+  border-radius: 12px;
+  font-family: 'Outfit', sans-serif;
+  text-align: center;
+}
+
+.contact-box a {
+  color: white;
+}
+
+.contact-box p {
+  font-size: 1.5rem;
+}
+
+#contact-form h2 {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-family: 'Outfit', sans-serif;
+}
+
+#contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 800px;
+  /* match the others */
+  margin: 3vw auto;
+  /* match margin of other boxes */
+  padding: 2rem;
+  background-color: rgba(50, 87, 24, 0.916);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#contact-form input,
+#contact-form textarea {
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+#contact-form button {
+  background-color: #ffffff;
+  color: rgba(50, 87, 24, 0.916);
+  padding: 0.75rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#contact-form button:hover {
+  background-color: #22cbde;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+    margin-top: 30%;
+  }
+
+  #contact-intro p,
+  .contact-box,
+  #contact-form form {
+    max-width: 95vw;
+    margin: 4vw auto;
+    padding: 1rem;
+  }
+
+  #contact-form input,
+  #contact-form textarea {
+    font-size: 1rem;
+  }
+
+  #contact-form button {
+    font-size: 1rem;
+    padding: 0.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+
+  #contact-intro p,
+  .contact-box,
+  #contact-form form {
+    border-radius: 8px;
+    padding: 0.75rem;
+  }
+
+  #contact-form input,
+  #contact-form textarea {
+    padding: 0.8rem;
+  }
+
+  .contact-box p {
+    font-size: 1rem;
+  }
+}

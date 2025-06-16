@@ -1,0 +1,117 @@
+/* values-styles.css */
+
+/* Base styles */
+body {
+  --bg-image: url('images/values-image.png');
+}
+
+header h1 {
+  color: white;
+  text-shadow: 4px 4px black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* Shared container for both value sections */
+#customer-value,
+#sustainability-value {
+  max-width: 900px;
+  margin: 4vw auto 8vw;
+  padding: 2vw 4vw;
+  background-color: rgba(34, 85, 34, 0.8);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.35);
+  color: white;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1rem;           /* base size */
+  text-align: center;
+  line-height: 1.5;
+  text-shadow: 1px 1px 2px black;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Headings and paragraphs scale relative to container font */
+#customer-value h2,
+#sustainability-value h2 {
+  font-size: 2.5em;           /* 2.5 × container font-size */
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px black;
+}
+
+#customer-value p,
+#sustainability-value p {
+  font-size: 1.7em;           /* 1.7 × container font-size */
+  text-shadow: 1px 1px 2px black;
+}
+
+/* Hover effect */
+#customer-value:hover,
+#sustainability-value:hover {
+  background-color: #10471d;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+/* Centered link buttons */
+.center-links {
+  text-align: center;
+  margin-top: 2vw;
+}
+
+.center-links a {
+  display: inline-block;
+  margin: 1vw;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  background-color: rgba(34, 85, 34, 0.8);
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.center-links a:hover {
+  background-color: #10471d;
+  transform: scale(1.05);
+}
+
+/* Responsive scaling */
+
+@media (max-width: 1200px) {
+  #customer-value,
+  #sustainability-value {
+    font-size: 0.9rem;        /* ~14.4px */
+    padding: 1.8vw 3vw;
+  }
+}
+
+@media (max-width: 960px) {
+  #customer-value,
+  #sustainability-value {
+    font-size: 0.8rem;        /* ~12.8px */
+    padding: 1.5vw 2.5vw;
+  }
+  .center-links a {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  #customer-value,
+  #sustainability-value {
+    max-width: 90vw;
+    font-size: 0.75rem;       /* ~12px */
+    padding: 1vw 2vw;
+  }
+}
+
+@media (max-width: 500px) {
+  #customer-value,
+  #sustainability-value {
+    font-size: 0.7rem;        /* ~11.2px */
+    padding: 0.8rem 1.2rem;
+  }
+}

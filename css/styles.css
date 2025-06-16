@@ -1,6 +1,30 @@
+/* Universal styles for background to prevent issues with nav and padding interferences */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* uses the --bg-image var, which each page will set */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;                 /* top/right/bottom/left:0 */
+  background:
+    var(--bg-image)         /* page defines this */
+    center / cover
+    no-repeat
+    fixed;
+  z-index: -1;
+}
+
+/* NAV STYLES */
 nav {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap !important;
     justify-content: center;
     gap: 10px;
     position: fixed;
@@ -32,11 +56,11 @@ body nav a {
     color: white;
 }
 
-
 nav a:hover {
     background-color: #5f6ba8;
 }
 
+/* FOOTER STYLES */
 footer {
     color: white;
     text-shadow: 3px 2px black;
@@ -52,3 +76,18 @@ nav,
 footer {
     font-family: 'Outfit', sans-serif;
 }
+
+/* Slight zoom on really wide screens */
+@media (min-width: 1600px) {
+  body {
+    zoom: 1.3;
+  }
+}
+
+/* Bigger zoom on ultra‑wide screens */
+@media (min-width: 2000px) {
+  body {
+    zoom: 1.5;
+  }
+}
+
